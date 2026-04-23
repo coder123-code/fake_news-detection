@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Load datasets
+
 df_fake = pd.read_csv(r"C:\Users\swami\Downloads\Fake.csv")
 df_true = pd.read_csv(r"C:\Users\swami\Downloads\True.csv")
 
