@@ -15,7 +15,7 @@ df_fake = pd.read_csv(r"C:\Users\swami\Downloads\Fake.csv")
 df_true = pd.read_csv(r"C:\Users\swami\Downloads\True.csv")
 
 
-# Insert target feature
+
 df_fake["class"] = 0
 df_true["class"] = 1
 
